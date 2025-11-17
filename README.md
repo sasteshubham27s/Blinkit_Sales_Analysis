@@ -27,9 +27,13 @@ This allows analysis across product, location, and store-performance dimensions.
 ##  Data Cleaning & Preparation (Python ,Pandas)
 The data was cleaned using Pandas to ensure accuracy and consistency:
 •	Fixed inconsistent labels (e.g., “lf”, “low fat” → “Low Fat”)
+
 •	Filled missing values (weight, outlet size)
+
 •	Corrected numeric formats
+
 •	Standardized category variables
+
 This ensured reliability for downstream analysis and dashboarding.
 
  ## Data Understanding
@@ -37,16 +41,27 @@ This ensured reliability for downstream analysis and dashboarding.
 The dataset contained 12 columns related to product details, outlet information, and revenue:
 
 •	Item_Fat_Content
+
 •	Item_Identifier
+
 •	Item_Type
+
 •	Outlet_Establishment_Year
+
 •	Outlet_Identifier
+
 •	Outlet_Location_Type
+
 •	Outlet_Size
+
 •	Outlet_Type
+
 •	Item_Visibility
+
 •	Item_Weight
+
 •	Sales
+
 •	Rating
 
 
@@ -90,10 +105,15 @@ Average sales increase with higher product ratings, indicating customers prefer 
 ## Exploratory Data Analysis (SQL)
 SQL queries were used to uncover insights such as:
 •	Total sales  by Outlet
-•	Average sales by outlet type, item type,
+
+•	Average sales by outlet type, item type
+
 •	Highest sales per outlet type
+
 •	Total sales by outlet establishment year
+
 •	Top 10 performing product categories
+
 •	Impact of store size and city tier on sales
 These queries helped identify key drivers of revenue.
 
@@ -101,38 +121,59 @@ These queries helped identify key drivers of revenue.
 ## Power BI Dashboard
 A fully interactive Power BI dashboard was developed containing:
 •	KPI Metrics
+
 •	Sales by Outlet
+
   Average Sales by Item and Location
+  
 •	Top 10 performing products
+
 •	Rating influence visualization
+
 •	Filters (slicers) for multi-dimensional analysis
+
 This enables decision-makers to understand sales patterns quickly.
 <img width="973" height="542" alt="Blinkit sales Analysis PBI Dashboard" src="https://github.com/user-attachments/assets/d95c2d6d-6d41-4f1f-a3e0-4aecbbd9e906" />
 
 ## Key Insights
 The analysis showed:
 •	Supermarket Type 1 outlets generate the highest revenue
+
 •	Tier 3 cities outperform Tier 1 & 2 areas
+
 •	Medium-sized outlets show the strongest performance
+
 •	Snacks, Frozen Foods, Fruits & Vegetables are the most profitable categories
+
 •	Highly rated products sell more
+
 •	Moderate visibility items perform better
+
 These insights support strategic decisions for expansion and marketing.
 
 ## Recommendations
 •	Expand Supermarket Type 1 stores
+
 •	Boost operations in Tier 3 cities
+
 •	Improve product placement visibility
+
 •	Increase stock for fast-moving items
+
 •	Promote items with high customer ratings
+
 •	Implement loyalty programs for smaller-city customers
 
 ## Conclusion
 This project demonstrates how data-driven insights can help Blinkit optimize:
 •	Store performance
+
 •	Inventory management
+
 •	Customer targeting
+
 •	Product promotion strategies
+
 The full analysis highlights the value of combining SQL, Python, and Power BI to solve real business problems.
 
 
