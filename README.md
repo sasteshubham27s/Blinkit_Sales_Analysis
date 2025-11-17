@@ -9,14 +9,19 @@ Blinkit, a leading instant-delivery retail platform, aims to understand its sale
 
 # Tools 
 Python, SQL, Power BI, EDA, visualization, and project deployment.
+
 •	Libraries = Pandas, Matplotlib, Seaborn
 
 ## Data Understanding
 The dataset contains item-level sales records across multiple Blinkit outlets. It includes:
 •	Product attributes (Type, Weight, Visibility, Fat Content)
+
 •	Outlet characteristics (Size, Location Tier, Establishment Year)
+
 •	Customer rating
+
 •	Sales amount
+
 This allows analysis across product, location, and store-performance dimensions.
 
 ##  Data Cleaning & Preparation (Python ,Pandas)
